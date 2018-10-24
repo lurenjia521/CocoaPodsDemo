@@ -13,6 +13,7 @@
 		DF9EA9C0217F227100507471 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9EA9BF217F227100507471 /* Assets.xcassets */; };
 		DF9EA9C3217F227100507471 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9EA9C1217F227100507471 /* LaunchScreen.storyboard */; };
 		DF9EA9C6217F227100507471 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9EA9C5217F227100507471 /* main.m */; };
+		DF9EA9CF217FFE3900507471 /* UIView+KBCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = DF9EA9CD217FFE3900507471 /* UIView+KBCategory.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		DF9EA9C2217F227100507471 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DF9EA9C4217F227100507471 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DF9EA9C5217F227100507471 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DF9EA9CD217FFE3900507471 /* UIView+KBCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+KBCategory.m"; sourceTree = "<group>"; };
+		DF9EA9CE217FFE3900507471 /* UIView+KBCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+KBCategory.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +45,7 @@
 		DF9EA9AA217F226F00507471 = {
 			isa = PBXGroup;
 			children = (
+				DF9EA9CC217FFE3900507471 /* VTest */,
 				DF9EA9B5217F226F00507471 /* cocoapodsDemoGithub */,
 				DF9EA9B4217F226F00507471 /* Products */,
 			);
@@ -69,6 +73,15 @@
 				DF9EA9C5217F227100507471 /* main.m */,
 			);
 			path = cocoapodsDemoGithub;
+			sourceTree = "<group>";
+		};
+		DF9EA9CC217FFE3900507471 /* VTest */ = {
+			isa = PBXGroup;
+			children = (
+				DF9EA9CD217FFE3900507471 /* UIView+KBCategory.m */,
+				DF9EA9CE217FFE3900507471 /* UIView+KBCategory.h */,
+			);
+			path = VTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DF9EA9BB217F226F00507471 /* ViewController.m in Sources */,
+				DF9EA9CF217FFE3900507471 /* UIView+KBCategory.m in Sources */,
 				DF9EA9C6217F227100507471 /* main.m in Sources */,
 				DF9EA9B8217F226F00507471 /* AppDelegate.m in Sources */,
 			);

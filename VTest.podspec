@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = 'VTest'
-s.version      = '1.0.2'
+s.version      = '1.0.3'
 s.summary      = '演示工程，没有实际的含义'
 s.homepage     = 'https://github.com/lurenjia521/cocoaPodsDemo'
 s.license      = 'MIT'
